@@ -1,3 +1,5 @@
+package com.nurdinaffandidev.lambda;
+
 public class Main_FunctionaInterfaceLambda {
     public static void main(String[] args) {
         // Greetings example:
@@ -20,8 +22,8 @@ public class Main_FunctionaInterfaceLambda {
         Greeting greeting3 = () -> System.out.println("Salam Dunia from lambda abstract method implementation!");
         greeting3.sayHello();
 
-        // Calculator example:
-        System.out.println("\nCalculator functional interface example:");
+        // com.nurdinaffandidev.lambda.Calculator example:
+        System.out.println("\ncom.nurdinaffandidev.lambda.Calculator functional interface example:");
         System.out.println("==================================");
 
         Calculator sumCalculator = (x, y) -> {

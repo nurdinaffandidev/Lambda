@@ -1,4 +1,5 @@
-import java.awt.image.BandCombineOp;
+package com.nurdinaffandidev.lambda;
+
 import java.util.*;
 import java.util.function.*;
 
@@ -167,7 +168,7 @@ public class Main_LambdaExercise {
 
         System.out.println("\n=============== 1.3 [Writing lambdas for List methods] ===============");
         /*
-        1.	Create an ArrayList of type BankAccount. Add all the BankAccount objects to it.
+        1.	Create an ArrayList of type com.nurdinaffandidev.lambda.BankAccount. Add all the com.nurdinaffandidev.lambda.BankAccount objects to it.
          */
         System.out.println("\nquestion 1.3.1");
         System.out.println("============================================");
@@ -264,7 +265,7 @@ public class Main_LambdaExercise {
          */
         System.out.println("\nquestion 1.4.2");
         System.out.println("============================================");
-//        Comparator<BankAccount> accountTypeComparator = (firstAccount, secondAccount) -> {
+//        Comparator<com.nurdinaffandidev.lambda.BankAccount> accountTypeComparator = (firstAccount, secondAccount) -> {
 //            return firstAccount.getAccountType().compareTo(secondAccount.getAccountType());
 //        };
 //        sortedAccountList.sort(accountTypeComparator);

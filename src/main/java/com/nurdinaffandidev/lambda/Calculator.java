@@ -1,3 +1,4 @@
+package com.nurdinaffandidev.lambda;
 
 @FunctionalInterface
 public interface Calculator {

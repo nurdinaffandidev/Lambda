@@ -1,3 +1,4 @@
+package com.nurdinaffandidev.lambda;
 
 public class HelloGreeting implements Greeting {
 

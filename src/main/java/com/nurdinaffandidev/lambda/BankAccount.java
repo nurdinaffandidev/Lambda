@@ -1,3 +1,5 @@
+package com.nurdinaffandidev.lambda;
+
 import java.util.Objects;
 
 public class BankAccount {
@@ -71,7 +73,7 @@ public class BankAccount {
     // Methods
     @Override
     public String toString() {
-        return "BankAccount{" +
+        return "com.nurdinaffandidev.lambda.BankAccount{" +
                 "accountNumber=" + accountNumber +
                 ", bankCode=" + bankCode +
                 ", accountHolder='" + accountHolder + '\'' +
